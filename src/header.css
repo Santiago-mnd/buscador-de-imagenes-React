@@ -1,0 +1,31 @@
+html
+{
+    font-size: 62.5%;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+header
+{
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 1.4rem; 
+    box-shadow: 1px 2px 5px rgb(0, 0, 0, .3);
+    position: relative;
+    z-index: 2;
+}
+
+header input
+{
+    outline: none;
+    border: solid 1px #eee;
+    font-size: 1.6rem;
+    text-align: center;
+    /* padding: 1rem .5rem; */
+    border-radius: 4px;
+}

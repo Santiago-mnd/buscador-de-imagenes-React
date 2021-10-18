@@ -1,0 +1,44 @@
+.container
+{
+    display: flex;
+    background: #eee;
+    justify-content: center;
+    width: 100%;
+}
+
+.center
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 1024px){
+    .center
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media (max-width: 770px){
+    .center
+    {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 375px) {
+    .center
+    {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+/* @media (max-width: 1024px){
+    .center
+    {    
+        column-count: 2;
+    }
+} */
